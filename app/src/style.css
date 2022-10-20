@@ -1,0 +1,43 @@
+html {
+    background-color: #FCF89D;
+}
+
+#root {
+    background-color: #FCF89D;
+    padding-left: 50px;
+}
+
+.add {
+    background-color: #FCF89D;
+    padding-left: 50px;
+}
+
+.list {
+    background-color: #FCF89D;
+    padding-left: 50px;
+}
+
+.section2 {
+    background-color: #FCF89D;
+    padding-left: 50px;
+}
+
+.buttons {
+    background-color: #FCF89D;
+    padding-left: 50px;
+}
+
+.left {
+    background-color: #FCF89D;
+    padding-left: 50px;
+}
+
+.cookies {
+    max-height: 400px;
+    padding: 25px;
+    justify-content: center;
+}
+
+.cont {
+    background-color: #FCF89D;
+}
