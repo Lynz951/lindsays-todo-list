@@ -18,14 +18,17 @@ function Tasklist ({ setTasks, tasks }) {
                             type="checkbox"
                         />
                         {item.text}
-                    <button onClick={() => {clickDelete(item.id)}}>Delete</button>
+                    <button onClick={() => {
+                        clickDelete(item.id);
+                        localStorage.removeItem(item.id);
+                        }}>Delete</button>
                 </li>
                 ))}   
             </ul>
 
             <div className='left'>
             <br />
-            <h5>You have {tasks.length} tasks left!</h5>
+            <h5>You have {tasks.length} tasks left two dew!</h5>
             </div>
         </div>
     )
